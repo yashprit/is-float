@@ -1,0 +1,47 @@
+{
+  "name": "is-float",
+  "version": "0.0.0",
+  "description": "check number is  Float or not",
+  "homepage": "yashprit.github.io",
+
+  "bugs": {
+    "url": "yashprit/is-float/issues"
+  },
+  "author": {
+    "url": "yashprit.github.io",
+    "name": "Yashprit",
+    "email": "yashprit@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yashprit/is-float"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "is-float",
+    "float",
+    "numbers",
+    "npm",
+    "javascript"
+  ],
+  "dependencies": {
+    "meow": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "meow": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "is-float": "cli.js"
+  }
+}
