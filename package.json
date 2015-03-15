@@ -1,9 +1,8 @@
 {
   "name": "is-float",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "check number is  Float or not",
   "homepage": "yashprit.github.io",
-
   "bugs": {
     "url": "yashprit/is-float/issues"
   },
