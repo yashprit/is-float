@@ -5,8 +5,13 @@
  */
 
 var isFloat = function isFloat(input) {
-  if (isFinite(input)) {
-    return input === input && !!(input % 1)
+  if (typeof input === "number") {
+    if ((/[.]/).test() && input !== +input) {
+      return true;
+    }
+    var inputStr = " " + input + " "
+    console.log(inputStr)
+    return (/[.]/).test(inputStr);
   }
 
   return false;
