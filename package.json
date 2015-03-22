@@ -2,10 +2,7 @@
   "name": "is-float",
   "version": "0.0.1",
   "description": "check number is  Float or not",
-  "homepage": "yashprit.github.io",
-  "bugs": {
-    "url": "yashprit/is-float/issues"
-  },
+  "homepage": "http://yashprit.github.io",
   "author": {
     "url": "yashprit.github.io",
     "name": "Yashprit",
@@ -31,7 +28,7 @@
     "javascript"
   ],
   "dependencies": {
-    "meow": "^2.0.0"
+    "minimist": "^1.1.1"
   },
   "devDependencies": {
     "mocha": "*"

@@ -10,7 +10,7 @@ $ npm install --save is-float
 
 ## Usage
 
-##### Node.js
+### Node.js
 
 ```js
 var isFloat = require('is-float'); //npm install isFloat
@@ -19,21 +19,28 @@ isFloat(2.5);
 //=> true
 ```
 
-##### Browser
+### Browser
 
 ```js
   isFloat(2.5);
 ```
-## API
+### command line
 
-### isFloat
+```sh
+$ npm install --global is-float
+$ is-float --v 2.5
 
-Accept anything and return number is float or not
+#result => true
+```
 
 
-## Report Issue
-[issue-url]
+## Run Test
+```sh
+npm test
+```
 
+## Contribute or Report Issue
+For bugs and feature requests, [please create an issue][issue-url].
 
 ## License
 

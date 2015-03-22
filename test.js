@@ -6,32 +6,32 @@ it("float should be true", function() {
   assert.equal(true, isFloat(2.5));
 });
 
-it("float should be true", function() {
-  assert.equal(true, isFloat(2.0));
+it("float should be false with zero", function() {
+  assert.equal(false, isFloat(2.0));
 });
 
-it("float should be true", function() {
-  assert.equal(true, isFloat(2.00));
+it("float should be false zero after decimal point", function() {
+  assert.equal(false, isFloat(2.00));
 });
 
 it("float should be true", function() {
   assert.equal(true, isFloat(2.01));
 });
 
-it("true if number contains dot", function() {
-  assert.equal(true, isFloat(2.));
+it("false if number contains dot", function() {
+  assert.equal(false, isFloat(2.));
 });
 
-it("true if number is very large", function() {
-  assert.equal(true, isFloat(1.7976931348623157e+308));
+it("false if number is very large", function() {
+  assert.equal(false, isFloat(1.7976931348623157e+308));
 });
 
-it("true for MAX_SAFE_INTEGER", function() {
-  assert.equal(true, isFloat(9007199254740000.10));
+it("false for MAX_SAFE_INTEGER", function() {
+  assert.equal(false, isFloat(9007199254740000.90));
 });
 
 it("should be false even if its finite", function() {
-  assert.equal(false, isFloat("2.7"))
+  assert.equal(true, isFloat("2.7"))
 })
 
 it("string should be false", function() {
