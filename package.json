@@ -8,11 +8,11 @@
     "name": "Yashprit",
     "email": "yashprit@gmail.com"
   },
-  "contributors": [
+  "contributors": [{
     "url": "womack.io",
     "name": "James J. Womack",
     "email": "james@womack.io"
-  ],
+  }],
   "engines": {
     "node": ">=0.10.0"
   },
