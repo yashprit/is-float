@@ -1,14 +1,19 @@
-'use strict';
+"use strict";
+
 /**
  * Check argument is float or not
- * @return {Boolean} true its float
+ * @param {number} n
+ * @param {Boolean} shouldCoerce
+ * @return {Boolean} true if it's a float
  */
-
-var isFloat = function isFloat(input) {
-  if (isFinite(input)) {
-    return input === input && !!(input % 1)
+function isFloat (n, shouldCoerce) {
+  if (shouldCoerce) {
+    if (typeof n === "string") {
+      n = parseFloat(n);
+    }
   }
-  return false;
-};
+
+  return n === +n && n !== (n|0);
+}
 
 module.exports = isFloat;

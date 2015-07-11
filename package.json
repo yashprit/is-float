@@ -1,13 +1,18 @@
 {
   "name": "is-float",
-  "version": "0.0.2",
-  "description": "check number is  Float or not",
+  "version": "1.0.0",
+  "description": "Check if a value is a Float or not",
   "homepage": "http://yashprit.github.io",
   "author": {
     "url": "yashprit.github.io",
     "name": "Yashprit",
     "email": "yashprit@gmail.com"
   },
+  "contributors": [{
+    "url": "womack.io",
+    "name": "James J. Womack",
+    "email": "james@womack.io"
+  }],
   "engines": {
     "node": ">=0.10.0"
   },
@@ -23,15 +28,17 @@
   "keywords": [
     "is-float",
     "float",
+    "floating",
+    "decimal",
     "numbers",
     "npm",
     "javascript"
   ],
   "dependencies": {
-    "minimist": "^1.1.1"
+    "minimist": "1.1.1"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "2.2.5"
   },
   "scripts": {
     "test": "mocha"

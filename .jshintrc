@@ -11,5 +11,6 @@
   "boss": true,
   "eqnull": true,
   "expr": true,
+  "mocha": true,
   "node": true
 }
