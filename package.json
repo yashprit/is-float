@@ -8,11 +8,13 @@
     "name": "Yashprit",
     "email": "yashprit@gmail.com"
   },
-  "contributors": [{
-    "url": "womack.io",
-    "name": "James J. Womack",
-    "email": "james@womack.io"
-  }],
+  "contributors": [
+    {
+      "url": "womack.io",
+      "name": "James J. Womack",
+      "email": "james@womack.io"
+    }
+  ],
   "engines": {
     "node": ">=0.10.0"
   },
@@ -35,7 +37,7 @@
     "javascript"
   ],
   "dependencies": {
-    "minimist": "1.1.1"
+    "minimist": "^1.2.5"
   },
   "devDependencies": {
     "mocha": "2.2.5"
